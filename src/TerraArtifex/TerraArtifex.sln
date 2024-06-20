@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.ConsoleApp", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.MatrixExtensions", "TerraArtifex.MatrixExtensions\TerraArtifex.MatrixExtensions.csproj", "{3327411A-59AC-44C0-8182-2600121EA815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.PerlinNoise", "TerraArtifex.PerlinNoise\TerraArtifex.PerlinNoise.csproj", "{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{3327411A-59AC-44C0-8182-2600121EA815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3327411A-59AC-44C0-8182-2600121EA815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3327411A-59AC-44C0-8182-2600121EA815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
