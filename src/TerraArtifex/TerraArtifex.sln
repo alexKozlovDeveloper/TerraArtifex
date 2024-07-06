@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.Core", "TerraArtifex.Core\TerraArtifex.Core.csproj", "{5F46AE11-F65D-4FC8-B20A-4449C5CE393A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerraArtifex.Core", "TerraArtifex.Core\TerraArtifex.Core.csproj", "{5F46AE11-F65D-4FC8-B20A-4449C5CE393A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.ConsoleApp", "TerraArtifex.ConsoleApp\TerraArtifex.ConsoleApp.csproj", "{DE47AFD2-8C8B-49A7-8042-F6D355C24445}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerraArtifex.ConsoleApp", "TerraArtifex.ConsoleApp\TerraArtifex.ConsoleApp.csproj", "{DE47AFD2-8C8B-49A7-8042-F6D355C24445}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.MatrixExtensions", "TerraArtifex.MatrixExtensions\TerraArtifex.MatrixExtensions.csproj", "{3327411A-59AC-44C0-8182-2600121EA815}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerraArtifex.MatrixExtensions", "TerraArtifex.MatrixExtensions\TerraArtifex.MatrixExtensions.csproj", "{3327411A-59AC-44C0-8182-2600121EA815}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.PerlinNoise", "TerraArtifex.PerlinNoise\TerraArtifex.PerlinNoise.csproj", "{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerraArtifex.PerlinNoise", "TerraArtifex.PerlinNoise\TerraArtifex.PerlinNoise.csproj", "{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TerraArtifex.Exporting", "TerraArtifex.Exporting\TerraArtifex.Exporting.csproj", "{82BF6702-BC27-4C15-8B09-AC286A744278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TerraArtifex.Generating", "TerraArtifex.Generating\TerraArtifex.Generating.csproj", "{7D5F366B-6B07-4DF6-B4E8-154A57945E40}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC436AB1-4F4F-49A5-BABA-AD0A95CD9C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82BF6702-BC27-4C15-8B09-AC286A744278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82BF6702-BC27-4C15-8B09-AC286A744278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82BF6702-BC27-4C15-8B09-AC286A744278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82BF6702-BC27-4C15-8B09-AC286A744278}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D5F366B-6B07-4DF6-B4E8-154A57945E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5F366B-6B07-4DF6-B4E8-154A57945E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5F366B-6B07-4DF6-B4E8-154A57945E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5F366B-6B07-4DF6-B4E8-154A57945E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

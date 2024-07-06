@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TerraArtifex.Exporting\TerraArtifex.Exporting.csproj" />
+    <ProjectReference Include="..\TerraArtifex.Generating\TerraArtifex.Generating.csproj" />
+    <ProjectReference Include="..\TerraArtifex.PerlinNoise\TerraArtifex.PerlinNoise.csproj" />
+  </ItemGroup>
+
 </Project>
